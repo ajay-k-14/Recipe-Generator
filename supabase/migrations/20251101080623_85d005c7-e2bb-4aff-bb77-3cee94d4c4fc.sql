@@ -5,7 +5,7 @@ CREATE TABLE public.recipes (
   region TEXT NOT NULL,
   instructions JSONB NOT NULL DEFAULT '[]'::jsonb,
   nutrition JSONB NOT NULL DEFAULT '{}'::jsonb,
-  healthiness TEXT,
+  -- healthiness TEXT,
   ingredients TEXT,
   cuisine TEXT,
   preference TEXT,

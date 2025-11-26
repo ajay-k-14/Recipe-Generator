@@ -43,7 +43,7 @@ serve(async (req) => {
 2. The regional style (North Indian Style or South Indian Style)
 3. Detailed step-by-step cooking instructions (at least 6-8 steps)
 4. Accurate nutrition information (calories, protein, fat, carbs)
-5. A healthiness assessment
+// 5. A healthiness assessment
 
 Return the response as a JSON object with this exact structure:
 {

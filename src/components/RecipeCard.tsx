@@ -40,9 +40,11 @@ export const RecipeCard = ({ title, region, instructions, nutrition, healthiness
               )}
             </div>
           </div>
+
           {/* <Badge className={`${getHealthBadgeColor(healthiness)} px-3 py-1 text-sm font-semibold whitespace-nowrap`}>
             {healthiness || "Nutritious"}
           </Badge> */}
+          
         </div>
       </CardHeader>
 

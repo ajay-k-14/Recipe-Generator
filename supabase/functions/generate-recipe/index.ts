@@ -56,7 +56,7 @@ Return the response as a JSON object with this exact structure:
     "fat": number,
     "carbs": number
   },
-  "healthiness": "description of healthiness"
+  // "healthiness": "description of healthiness"
 }`;
 
     const recipes = [];

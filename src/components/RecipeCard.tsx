@@ -13,16 +13,16 @@ interface RecipeCardProps {
   region: string;
   instructions: string[];
   nutrition: Nutrition;
-  healthiness?: string;
+  // healthiness?: string;
   dietary?: string;
 }
 
-const getHealthBadgeColor = (healthiness?: string) => {
-  if (!healthiness) return "bg-[hsl(var(--health-moderate))] text-white";
-  if (healthiness.toLowerCase().includes("healthy")) return "bg-[hsl(var(--health-good))] text-white";
-  if (healthiness.toLowerCase().includes("moderate")) return "bg-[hsl(var(--health-moderate))] text-white";
-  return "bg-[hsl(var(--health-rich))] text-white";
-};
+// const getHealthBadgeColor = (healthiness?: string) => {
+//   if (!healthiness) return "bg-[hsl(var(--health-moderate))] text-white";
+//   if (healthiness.toLowerCase().includes("healthy")) return "bg-[hsl(var(--health-good))] text-white";
+//   if (healthiness.toLowerCase().includes("moderate")) return "bg-[hsl(var(--health-moderate))] text-white";
+//   return "bg-[hsl(var(--health-rich))] text-white";
+// };
 
 export const RecipeCard = ({ title, region, instructions, nutrition, healthiness, dietary }: RecipeCardProps) => {
   return (

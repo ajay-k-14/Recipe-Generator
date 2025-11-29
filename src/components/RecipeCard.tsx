@@ -24,7 +24,8 @@ interface RecipeCardProps {
 //   return "bg-[hsl(var(--health-rich))] text-white";
 // };
 
-export const RecipeCard = ({ title, region, instructions, nutrition, healthiness, dietary }: RecipeCardProps) => {
+//add healthiness badge back in when we can rely on the data 
+export const RecipeCard = ({ title, region, instructions, nutrition, dietary }: RecipeCardProps) => {
   return (
     <Card className="overflow-hidden bg-[var(--gradient-card)] border-2 hover:shadow-[var(--shadow-glow)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-4">
       <CardHeader className="pb-4">

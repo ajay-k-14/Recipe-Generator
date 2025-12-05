@@ -61,7 +61,6 @@ const Index = () => {
             region: recipe.region,
             instructions: recipe.instructions,
             nutrition: recipe.nutrition,
-            healthiness: recipe.healthiness,
             ingredients,
             cuisine,
             preference

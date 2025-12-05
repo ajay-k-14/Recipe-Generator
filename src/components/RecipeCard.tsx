@@ -13,16 +13,9 @@ interface RecipeCardProps {
   region: string;
   instructions: string[];
   nutrition: Nutrition;
-  // healthiness?: string;
   dietary?: string;
 }
 
-// const getHealthBadgeColor = (healthiness?: string) => {
-//   if (!healthiness) return "bg-[hsl(var(--health-moderate))] text-white";
-//   if (healthiness.toLowerCase().includes("healthy")) return "bg-[hsl(var(--health-good))] text-white";
-//   if (healthiness.toLowerCase().includes("moderate")) return "bg-[hsl(var(--health-moderate))] text-white";
-//   return "bg-[hsl(var(--health-rich))] text-white";
-// };
 
 //add healthiness badge back in when we can rely on the data 
 export const RecipeCard = ({ title, region, instructions, nutrition, dietary }: RecipeCardProps) => {
@@ -42,9 +35,6 @@ export const RecipeCard = ({ title, region, instructions, nutrition, dietary }: 
             </div>
           </div>
 
-          {/* <Badge className={`${getHealthBadgeColor(healthiness)} px-3 py-1 text-sm font-semibold whitespace-nowrap`}>
-            {healthiness || "Nutritious"}
-          </Badge> */}
           
         </div>
       </CardHeader>

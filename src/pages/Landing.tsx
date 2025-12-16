@@ -105,7 +105,7 @@ const Landing = () => {
       {/* Footer */}
       <footer className="bg-sky-200 border-t border-border py-8">
         <div className="max-w-6xl mx-auto px-4 text-center text-muted-foreground">
-          <p>• Nutrition estimates are approximate • Always consult professionals for dietary advice •</p>
+          <p>• Nutrition estimates are approximate • Always consult professionals for dietary advice • Developed by ajay_k_14 • </p>
         </div>
       </footer>
     </div>
